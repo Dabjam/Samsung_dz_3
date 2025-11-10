@@ -1,0 +1,43 @@
+:root {
+    --bcak-color: white;
+}
+
+@font-face {
+    font-family: "Rubik-Bubbles";
+    src: url(/fonts/RubikBubbles-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Telex-Regular";
+    src: url("/fonts/Telex-Regular.ttf") format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.button_menu {
+    height: 200px;
+    position: fixed;
+    display: inline;
+}
+
+body {
+    height: 2200px;
+}
+header{
+    display: flex;
+}
+
+.name_website {
+    font-family: "Rubik-Bubbles";
+    text-transform: uppercase;
+    font-size: 128px;
+}
+
+.button_menu {
+    font-family: "Telex-Regular";
+    text-transform: uppercase;
+    font-size: 38px;
+}
